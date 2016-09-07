@@ -14,10 +14,10 @@
 		B426EFFE1D801557008CB677 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B426EFFD1D801557008CB677 /* Assets.xcassets */; };
 		B426F0011D801557008CB677 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B426EFFF1D801557008CB677 /* LaunchScreen.storyboard */; };
 		B426F00C1D801557008CB677 /* JXWebImageTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B426F00B1D801557008CB677 /* JXWebImageTests.m */; };
-		B426F0191D8015C2008CB677 /* HTTPRequestManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B426F0181D8015C2008CB677 /* HTTPRequestManager.m */; };
-		B426F01C1D8017B7008CB677 /* JXWebImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = B426F01B1D8017B7008CB677 /* JXWebImageCache.m */; };
-		B426F01F1D80181B008CB677 /* NSString+MD5Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = B426F01E1D80181B008CB677 /* NSString+MD5Addition.m */; };
-		B426F0221D801894008CB677 /* UIImageView+JXWebImage.m in Sources */ = {isa = PBXBuildFile; fileRef = B426F0211D801894008CB677 /* UIImageView+JXWebImage.m */; };
+		B426F02D1D801EAC008CB677 /* HTTPRequestManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B426F0261D801EAC008CB677 /* HTTPRequestManager.m */; };
+		B426F02E1D801EAC008CB677 /* JXWebImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = B426F0281D801EAC008CB677 /* JXWebImageCache.m */; };
+		B426F02F1D801EAC008CB677 /* NSString+MD5Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = B426F02A1D801EAC008CB677 /* NSString+MD5Addition.m */; };
+		B426F0301D801EAC008CB677 /* UIImageView+JXWebImage.m in Sources */ = {isa = PBXBuildFile; fileRef = B426F02C1D801EAC008CB677 /* UIImageView+JXWebImage.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,14 +44,14 @@
 		B426F0071D801557008CB677 /* JXWebImageTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JXWebImageTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B426F00B1D801557008CB677 /* JXWebImageTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JXWebImageTests.m; sourceTree = "<group>"; };
 		B426F00D1D801557008CB677 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B426F0171D8015C2008CB677 /* HTTPRequestManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTTPRequestManager.h; sourceTree = "<group>"; };
-		B426F0181D8015C2008CB677 /* HTTPRequestManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTTPRequestManager.m; sourceTree = "<group>"; };
-		B426F01A1D8017B7008CB677 /* JXWebImageCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXWebImageCache.h; sourceTree = "<group>"; };
-		B426F01B1D8017B7008CB677 /* JXWebImageCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXWebImageCache.m; sourceTree = "<group>"; };
-		B426F01D1D80181B008CB677 /* NSString+MD5Addition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MD5Addition.h"; sourceTree = "<group>"; };
-		B426F01E1D80181B008CB677 /* NSString+MD5Addition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MD5Addition.m"; sourceTree = "<group>"; };
-		B426F0201D801894008CB677 /* UIImageView+JXWebImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+JXWebImage.h"; sourceTree = "<group>"; };
-		B426F0211D801894008CB677 /* UIImageView+JXWebImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+JXWebImage.m"; sourceTree = "<group>"; };
+		B426F0251D801EAC008CB677 /* HTTPRequestManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTTPRequestManager.h; sourceTree = "<group>"; };
+		B426F0261D801EAC008CB677 /* HTTPRequestManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTTPRequestManager.m; sourceTree = "<group>"; };
+		B426F0271D801EAC008CB677 /* JXWebImageCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXWebImageCache.h; sourceTree = "<group>"; };
+		B426F0281D801EAC008CB677 /* JXWebImageCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXWebImageCache.m; sourceTree = "<group>"; };
+		B426F0291D801EAC008CB677 /* NSString+MD5Addition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MD5Addition.h"; sourceTree = "<group>"; };
+		B426F02A1D801EAC008CB677 /* NSString+MD5Addition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MD5Addition.m"; sourceTree = "<group>"; };
+		B426F02B1D801EAC008CB677 /* UIImageView+JXWebImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+JXWebImage.h"; sourceTree = "<group>"; };
+		B426F02C1D801EAC008CB677 /* UIImageView+JXWebImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+JXWebImage.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,7 +93,7 @@
 		B426EFF01D801557008CB677 /* JXWebImage */ = {
 			isa = PBXGroup;
 			children = (
-				B426F0161D801587008CB677 /* JXWebImage */,
+				B426F0241D801E72008CB677 /* JXWebImage */,
 				B426EFF41D801557008CB677 /* AppDelegate.h */,
 				B426EFF51D801557008CB677 /* AppDelegate.m */,
 				B426EFF71D801557008CB677 /* ViewController.h */,
@@ -124,19 +124,19 @@
 			path = JXWebImageTests;
 			sourceTree = "<group>";
 		};
-		B426F0161D801587008CB677 /* JXWebImage */ = {
+		B426F0241D801E72008CB677 /* JXWebImage */ = {
 			isa = PBXGroup;
 			children = (
-				B426F01A1D8017B7008CB677 /* JXWebImageCache.h */,
-				B426F01B1D8017B7008CB677 /* JXWebImageCache.m */,
-				B426F0171D8015C2008CB677 /* HTTPRequestManager.h */,
-				B426F0181D8015C2008CB677 /* HTTPRequestManager.m */,
-				B426F01D1D80181B008CB677 /* NSString+MD5Addition.h */,
-				B426F01E1D80181B008CB677 /* NSString+MD5Addition.m */,
-				B426F0201D801894008CB677 /* UIImageView+JXWebImage.h */,
-				B426F0211D801894008CB677 /* UIImageView+JXWebImage.m */,
+				B426F0251D801EAC008CB677 /* HTTPRequestManager.h */,
+				B426F0261D801EAC008CB677 /* HTTPRequestManager.m */,
+				B426F0271D801EAC008CB677 /* JXWebImageCache.h */,
+				B426F0281D801EAC008CB677 /* JXWebImageCache.m */,
+				B426F0291D801EAC008CB677 /* NSString+MD5Addition.h */,
+				B426F02A1D801EAC008CB677 /* NSString+MD5Addition.m */,
+				B426F02B1D801EAC008CB677 /* UIImageView+JXWebImage.h */,
+				B426F02C1D801EAC008CB677 /* UIImageView+JXWebImage.m */,
 			);
-			name = JXWebImage;
+			path = JXWebImage;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -239,13 +239,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B426F02E1D801EAC008CB677 /* JXWebImageCache.m in Sources */,
 				B426EFF91D801557008CB677 /* ViewController.m in Sources */,
 				B426EFF61D801557008CB677 /* AppDelegate.m in Sources */,
-				B426F01C1D8017B7008CB677 /* JXWebImageCache.m in Sources */,
-				B426F0221D801894008CB677 /* UIImageView+JXWebImage.m in Sources */,
+				B426F0301D801EAC008CB677 /* UIImageView+JXWebImage.m in Sources */,
+				B426F02D1D801EAC008CB677 /* HTTPRequestManager.m in Sources */,
+				B426F02F1D801EAC008CB677 /* NSString+MD5Addition.m in Sources */,
 				B426EFF31D801557008CB677 /* main.m in Sources */,
-				B426F01F1D80181B008CB677 /* NSString+MD5Addition.m in Sources */,
-				B426F0191D8015C2008CB677 /* HTTPRequestManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
